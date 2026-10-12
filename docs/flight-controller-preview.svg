@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1200 780">
+  <defs>
+    <style>
+      .bg { fill: #f2efe9; }
+      .title { font: 700 28px Arial, sans-serif; fill: #1a1a1a; }
+      .label { font: 600 16px Arial, sans-serif; fill: #2d2d2d; }
+      .small { font: 500 12px Arial, sans-serif; fill: #555; }
+      .chip { fill: #f0d98b; stroke: #3a3a3a; stroke-width: 2; }
+      .chip2 { fill: #efddb1; stroke: #3a3a3a; stroke-width: 2; }
+      .wire { stroke: #1d9b35; stroke-width: 3; fill: none; }
+      .wire2 { stroke: #d13b3b; stroke-width: 3; fill: none; }
+      .pin { font: 600 11px Arial, sans-serif; fill: #1d1d1d; }
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1200" height="780"/>
+
+  <g>
+    <rect x="210" y="170" width="220" height="360" rx="6" class="chip"/>
+    <text x="260" y="200" class="label">ESP32-WROOM-32</text>
+    <text x="238" y="235" class="pin">EN</text>
+    <text x="238" y="255" class="pin">SENSOR_VP</text>
+    <text x="238" y="275" class="pin">SENSOR_VN</text>
+    <text x="238" y="295" class="pin">IO34</text>
+    <text x="238" y="315" class="pin">IO35</text>
+    <text x="238" y="335" class="pin">IO32</text>
+    <text x="238" y="355" class="pin">IO33</text>
+    <text x="238" y="375" class="pin">IO25</text>
+    <text x="238" y="395" class="pin">IO26</text>
+    <text x="238" y="415" class="pin">IO27</text>
+    <text x="238" y="435" class="pin">IO14</text>
+    <text x="238" y="455" class="pin">IO12</text>
+    <text x="238" y="475" class="pin">IO13</text>
+
+    <text x="348" y="235" class="pin">IO15</text>
+    <text x="348" y="255" class="pin">IO2</text>
+    <text x="348" y="275" class="pin">IO0</text>
+    <text x="348" y="295" class="pin">IO4</text>
+    <text x="348" y="315" class="pin">IO16</text>
+    <text x="348" y="335" class="pin">IO17</text>
+    <text x="348" y="355" class="pin">IO5</text>
+    <text x="348" y="375" class="pin">IO18</text>
+    <text x="348" y="395" class="pin">IO19</text>
+    <text x="348" y="415" class="pin">IO21</text>
+    <text x="348" y="435" class="pin">RXD0/IO3</text>
+    <text x="348" y="455" class="pin">TXD0/IO1</text>
+    <text x="348" y="475" class="pin">IO22</text>
+    <text x="348" y="495" class="pin">IO23</text>
+  </g>
+
+  <g>
+    <rect x="740" y="260" width="210" height="170" rx="6" class="chip2"/>
+    <text x="800" y="292" class="label">MPU-6050</text>
+    <text x="758" y="325" class="pin">VLOGIC</text>
+    <text x="758" y="345" class="pin">AD0</text>
+    <text x="758" y="365" class="pin">REGOUT</text>
+    <text x="758" y="385" class="pin">FSYNC</text>
+    <text x="758" y="405" class="pin">CLKIN</text>
+    <text x="860" y="325" class="pin">INT</text>
+    <text x="860" y="345" class="pin">AUX_DA</text>
+    <text x="860" y="365" class="pin">AUX_CL</text>
+    <text x="860" y="385" class="pin">SCL</text>
+    <text x="860" y="405" class="pin">SDA</text>
+  </g>
+
+  <g>
+    <path d="M430 250 L560 250 L560 310 L740 310" class="wire"/>
+    <path d="M430 290 L580 290 L580 350 L740 350" class="wire"/>
+    <path d="M430 410 L620 410 L620 380 L740 380" class="wire"/>
+    <path d="M430 450 L660 450 L660 330 L740 330" class="wire"/>
+    <path d="M430 530 L630 530 L630 430 L740 430" class="wire"/>
+    <path d="M430 460 L580 460 L580 470 L740 470" class="wire2"/>
+    <path d="M430 350 L540 350 L540 200 L620 200 L620 260 L740 260" class="wire2"/>
+  </g>
+
+  <g>
+    <path d="M300 130 L300 170" class="wire2"/>
+    <path d="M300 530 L300 610" class="wire2"/>
+    <path d="M850 200 L850 260" class="wire2"/>
+    <path d="M300 170 L200 170 L200 570 L300 570" class="wire2"/>
+    <path d="M850 430 L850 560 L700 560" class="wire2"/>
+  </g>
+
+  <g>
+    <text x="535" y="88" class="title">Flight Controller Schematic Preview</text>
+    <text x="535" y="116" class="small">ESP32 + MPU-6050 design concept</text>
+  </g>
+</svg>
