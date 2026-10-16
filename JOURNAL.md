@@ -4,13 +4,13 @@
 <!-- Generated: 2026-10-11T17:31:20.957Z -->
 
 > [!NOTE]
-> This devlog is mirrored from [Half Life](https://halflife.hackclub.com). Editing it here will not change the platform's copy, and the next sync overwrites this file.
+> This devlog is mirrored from [Half Life](https://halflife.hackclub.com) – [open the project](https://halflife.hackclub.com/projects/cmuvlsoh5003401o95yslepz3). Editing it here will not change the platform's copy, and the next sync overwrites this file.
 
 > a pcb board to act as a flight controller for a drone
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
-| Week 1 | Tier 2 | 10h | 2 |
+| Week 1 | Tier 1 | 10h | 2 |
 
 ## Contents
 
